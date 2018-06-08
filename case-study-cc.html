@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Ash Rahman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="stylesheets/main.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		function fadeIn(obj) {
+			$(obj).fadeIn(1000);
+		}
+	</script>
+</head>
+
+<body>
+<section class="header">
+<div class="container">
+	<nav>
+		<a href="index.html"><img id="logo" style="" src="images/ar.png"></a>
+		<ul style="float:right">
+			<a href="docs/Ash_Rahman_Resume.pdf" download><li class="navlink">Resume</li></a>
+			<a href="http://medium.com/@ashrahman"><li class="navlink">Blog</li></a>
+		</ul>
+
+	</nav>
+
+	<div id="header-text" class="">
+		<!-- <img id="work" src="work.svg"> -->
+		<div class="">
+		<h3 class="title-3 brand-blue">The Coding Circle</h3>
+		<h1 class="title-2 space-1">Introducing online registrations for coding classes</h1>
+		</div>
+
+		<img onload="fadeIn(this)" class="case-study-img space-2" style="display:none" src="images/case-study-cc.png">
+		<!-- <h3 class="title-3 space-3">UX Designer & Front End Developer</h3>
+		<button class="button-1 title-3-bold space-4">Let's Talk</button> -->
+		<!-- <span id="circle"><img id="arrow" src="images/down-arrow.svg"/></span> -->
+
+	</div>
+</div>
+</section>
+
+<section class="case-study-content pad-5 clear">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-12">
+			<h3 class="title-3">The Challenge</h3>
+			<p class="large space-2">The Coding Circle is an education startup that provides coding classes to kids across schools in Middle East. After a year of its successful run, the founders realized that the company website built on an off-the-shelf Wordpress theme stopped complementing the company's business functions. Admins were unable to update and inform parents about new coures being provided and parents had to physically register and pay for courses.</p>
+
+			<h3 class="title-3 space-4">The Solution</h3>
+			<p class="large space-2">As an instructor at The Coding Circle myself, I understood all the moving parts of the business. I built curriculums, interacted with parents, school activities coordinators and taught students. Reflecting on the business we outlined critical components for the website:</p>
+			<li class="large space-2">A catalog of all courses provided by The Coding Circle</li>
+			<li class="large">Upcoming classes and the possibility to register for them</li>
+			<li class="large">Real time updates to seats left for a class when parents register</li>
+			<li class="large">Admin dashboard to view registrations, manage courses, locations, instructors for classes</li>
+			<p class="large space-2">With requirements in hand, I first designed the website. The website redesign incorporated minimalistic design concepts, improved typography, hierarchy and card system for presenting content. After approval from key stakeholders, I developed the website using the isomorphic Javascript full stack framework called Meteor.js. </p>
+
+			<a class="space-2" href="https://thecodingcircle.com"><button class="button-1 title-3 space-4">Visit Site</button></a>
+
+			<h3 class="title-3 space-4">My Toolbox</h3>
+			<h4 class="title-4 space-2 brand-blue">Design</h4>
+			<li class="large space-1">Sketch</li>
+			<h4 class="title-4 space-2 brand-blue">Development</h4>
+			<li class="large space-1">Meteor.js (Blaze templating, jQuery, Node.js, MongoDB)</li>
+			<li class="large">Bootstrap</li>
+			<li class="large">Sass preprocessor</li>
+			<li class="large">Nginx</li>
+			<li class="large">Docker</li>
+			<li class="large">Ubuntu</li>
+			<li class="large">Mandrill (emails) and Checkout (payment) integration</li>
+		</div>
+	</div>
+
+	</div>
+</section>
+
+
+</html>

@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Ash Rahman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="stylesheets/main.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		function fadeIn(obj) {
+	   		$(obj).fadeIn(1000);
+		}
+	</script>
+</head>
+
+<body>
+<section class="header">
+<div class="container">
+	<nav>
+		<a href="index.html"><img id="logo" style="" src="images/ar.png"></a>
+		<ul style="float:right">
+			<a href="docs/Ash_Rahman_Resume.pdf" download><li class="navlink">Resume</li></a>
+			<a href="http://medium.com/@ashrahman"><li class="navlink">Blog</li></a>
+		</ul>
+
+	</nav>
+
+	<div id="header-text" class="">
+		<!-- <img id="work" src="work.svg"> -->
+		<div class="">
+		<h3 class="title-3 brand-blue">Sushi Hunt</h3>
+		<h1 class="title-2 space-1">Find sushi restaurants near you</h1>
+		</div>
+
+		<img onload="fadeIn(this)" style="display:none" class="case-study-img space-2" src="images/case-study-sh.png">
+		<!-- <h3 class="title-3 space-3">UX Designer & Front End Developer</h3>
+		<button class="button-1 title-3-bold space-4">Let's Talk</button> -->
+		<!-- <span id="circle"><img id="arrow" src="images/down-arrow.svg"/></span> -->
+
+	</div>
+</div>
+</section>
+
+<section class="case-study-content pad-5 clear">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-12">
+			<h3 class="title-3">The Challenge</h3>
+			<p class="large space-2">For almost a decade now, the mobile web has been waiting for a performance do-over. As a web developer, I've worked on hybrid apps in the past and depending on the framework you choose, the user experience can be jarring and visibily different from a native application. It was native or die.</p>
+
+			<p class="large space-2">
+				As an asian food connoisseur, I've developed a habit of trying new sushi restaurants wherever I go. As someone who was planning to travel during fall of 2016 between the UAE, US and Canada within the span of a month, it was the perfect opportunity to build something that made the process of finding sushi restaurants easy. The key was to keep it web and keep it lean.
+			</p>
+
+			<h3 class="title-3 space-4">The Solution</h3>
+			<p class="large space-2">That's how Progressive Web Apps came into the picture. Armed with the latest Chrome browsers on a given device, you can leverage service workers, strategic caching and more to create a native app like experience. Now, as a developer I have maximum control on the size of my app while writing them in vanilla HTML, CSS and Javascript.
+			</p>
+			<p class="large space-2">After a couple weeks of tweaking and experimenting I built Sushi Hunt. Since then I've probably tried a dozen restaurants. And you can too! Just open the link below on your Android device's Chrome browser and head to settings and tap 'Add to Homescreen'.</p>
+			<a class="space-2" href="https://sushi-hunt.herokuapp.com"><button class="button-1 title-3 space-4">Try App</button></a>
+
+			<h3 class="title-3 space-4">My Toolbox</h3>
+			<h4 class="title-4 space-2 brand-blue">Design</h4>
+			<li class="large space-1">Sketch</li>
+			<h4 class="title-4 space-2 brand-blue">Development</h4>
+			<li class="large space-1">Vanilla HTML, CSS and Javascript</li>
+			<li class="large">Handlebars templating</li>
+			<li class="large">Express.js / Node.js</li>
+			<li class="large">Chrome 42 (Promises, Service Worker, Cache, Geolocation)</li>
+			<li class="large">Zomato API</li>
+		</div>
+	</div>
+
+	</div>
+</section>
+
+</html>

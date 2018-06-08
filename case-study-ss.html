@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Ash Rahman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="stylesheets/main.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		function fadeIn(obj) {
+	   		$(obj).fadeIn(1000);
+		}
+	</script>
+</head>
+
+<body>
+<section class="header">
+<div class="container">
+	<nav>
+		<a href="index.html"><img id="logo" style="" src="images/ar.png"></a>
+		<ul style="float:right">
+			<a href="docs/Ash_Rahman_Resume.pdf" download><li class="navlink">Resume</li></a>
+			<a href="http://medium.com/@ashrahman"><li class="navlink">Blog</li></a>
+		</ul>
+
+	</nav>
+
+	<div id="header-text" class="">
+
+		<div class="">
+		<h3 class="title-3 brand-blue">Sneaker Shop</h3>
+		<h1 class="title-2 space-1">Building e-commerce the React and Redux way</h1>
+		</div>
+
+		<img onload="fadeIn(this)" style="display:none" class="case-study-img space-2" src="images/case-study-ss.png">
+
+	</div>
+</div>
+</section>
+
+<section class="case-study-content pad-5 clear">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-12">
+			<h3 class="title-3">The Challenge</h3>
+			<p class="large space-2">Over the past two years, React.js has had a growing interest in the development community. Even more so than Angular.js. Buzzwords and phrases like "It's the V in MVC", "Component driven", "Unidirectional data flow" are used to describe React.js. After building simple apps in React.js, I wasn't entirely sure how it would scale as the app got complicated especially with regards to state management. The most popular solution to managing state is called Redux. I wanted to see what it was all about.</p>
+			<h3 class="title-3 space-4">The Solution</h3>
+			<p class="large space-2">Redux is known to be Flux-y. Flux is a data flow architecture proposed by Facebook that could be ideal for React. Redux uses Flux concepts like stores, reducers and actions to manage state in React Components. I wanted to try this in a simple e-commerce website to see it in action.</p>
+
+			<a class="space-2" href="http://shopping-with-reactjs.herokuapp.com/"><button class="button-1 title-3 space-4">Visit Site</button></a>
+
+			<h3 class="title-3 space-4">My Toolbox</h3>
+			<h4 class="title-4 space-2 brand-blue">Design</h4>
+			<li class="large space-1">Sketch</li>
+			<h4 class="title-4 space-2 brand-blue">Development</h4>
+			<li class="large space-1">React</li>
+			<li class="large">Redux</li>
+			<li class="large">Babel</li>
+			<li class="large">npm</li>
+			<li class="large">Webpack</li>
+		</div>
+	</div>
+
+	</div>
+</section>
+
+</html>
